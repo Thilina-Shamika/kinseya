@@ -23,6 +23,14 @@ const QUOTES: Quote[] = [
   {
     initial: "N",
     name: "Natalie",
+    role: "Grief & Healing",
+    body: [
+      "“Kinsey is an incredible woman. During my father's time in palliative care, she visited him often, offering healing and support as he transitioned. After his passing, I struggled immensely to move forward. Kinsey has been an invaluable guide, helping me find deep closure and begin my own healing journey. Her gift is undeniable, and I am profoundly grateful for her presence.”",
+    ],
+  },
+  {
+    initial: "B",
+    name: "Bryan",
     role: "Ongoing Sessions",
     body: [
       "“Kinsey has helped me immensely. With her gifts she's helped guide me to a place of awakening. After a year of appointments I feel better and better — and more akin to my truest self.”",
@@ -40,7 +48,7 @@ const QUOTES: Quote[] = [
   {
     initial: "T",
     name: "Tina Macik",
-    role: "Soul Reading",
+    role: "Intuitive Guidance",
     clamped: true,
     body: [
       "“I've had readings with several intuitive practitioners over the years, but Kinsey is truly in a league of her own.",

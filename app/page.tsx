@@ -6,6 +6,7 @@ import {
   Eye,
   Key,
   Lock,
+  MapPin,
   MessageCircle,
   Search,
   Sparkle,
@@ -31,11 +32,12 @@ export default function Home() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src="/images/hero.jpg" alt="Kinsey Lawrence" />
             <div className="wrap hb-inner">
-              <p className="eyebrow">Soul Insight &amp; Energetic Clarity</p>
+              <p className="eyebrow">
+                Coherence Reflection &amp; Energetic Clarity
+              </p>
               <h1>
-                Hear what your soul
-                <br />
-                is <span className="serif-italic">already</span> telling you.
+                Your path to{" "}
+                <span className="serif-italic">inner clarity</span>.
               </h1>
               <p
                 className="lead"
@@ -102,8 +104,9 @@ export default function Home() {
             <div className="reveal d1">
               <p className="eyebrow">Welcome</p>
               <h2>
-                You&apos;re not just looking for advice — you&apos;re looking for
-                a mirror for the soul.
+                You&apos;re not just looking for advice — you&apos;re seeking a
+                mirror to your true identity and a reflection to your divine
+                blueprint.
               </h2>
               <p className="lead" style={{ marginTop: "1.3rem" }}>
                 Whether you&apos;re facing a life decision, emotional confusion,
@@ -111,9 +114,9 @@ export default function Home() {
                 your higher self is trying to communicate.
               </p>
               <p>
-                I don&apos;t predict the future. Instead, I offer clarity and
-                guidance based on what your soul is communicating right now —
-                meant to empower you to make aligned choices.
+                I offer clarity and guidance based on what your higher self is
+                communicating — meant to mirror your inner wisdom and empower you
+                to make aligned choices.
               </p>
               <Link href="/#what" className="link-arrow">
                 More about my work
@@ -145,10 +148,10 @@ export default function Home() {
                 <span className="ic">
                   <MessageCircle strokeWidth={1.5} />
                 </span>
-                <h3>Soul Communication</h3>
+                <h3>Higher Self Resonance</h3>
                 <p>
-                  I receive and relay messages from your soul that you may not
-                  yet be able to hear.
+                  I hold a coherent space to channel and transmit insights and
+                  information from your higher self and guides.
                 </p>
               </article>
               <article className="card reveal d1">
@@ -230,12 +233,11 @@ export default function Home() {
         <section className="strip">
           <div className="wrap">
             <p className="q reveal">
-              &quot;Sometimes I tune into your energy and receive messages your
-              soul wants to communicate —{" "}
+              &quot;I attune to your field —{" "}
               <span className="accent">
-                whether or not I know you personally.
-              </span>
-              &quot;
+                a connection independent of personal history
+              </span>{" "}
+              — and receive messages from your higher self.&quot;
             </p>
           </div>
         </section>
@@ -247,8 +249,8 @@ export default function Home() {
               <p className="eyebrow">Who This Is For</p>
               <h2>This work tends to find people at a threshold.</h2>
               <p className="lead" style={{ marginTop: "1rem" }}>
-                If any of these feel like you, a session may be exactly what your
-                soul is asking for.
+                If any of these feel like you, a session may be what your higher
+                self is seeking.
               </p>
               <Link href="/contact" className="btn" style={{ marginTop: "26px" }}>
                 Start a Conversation
@@ -284,7 +286,7 @@ export default function Home() {
                   <Search strokeWidth={1.5} />
                 </span>
                 <div>
-                  <h3>Curious what your soul is communicating</h3>
+                  <h3>Curious what your higher self is inviting</h3>
                   <p>
                     For the simply curious — open to hearing from a deeper part
                     of themselves.
@@ -344,7 +346,8 @@ export default function Home() {
                 <h3>1.5-Hour Session</h3>
                 <p className="dur">1.5 hours · live online</p>
                 <p>
-                  Space to go deeper — soul communication, energetic mirroring,
+                  Space to go deeper — higher-self communication, energetic
+                  mirroring,
                   and the insights that arise.
                 </p>
                 <p className="price" style={{ marginTop: "auto" }}>
@@ -366,6 +369,32 @@ export default function Home() {
                 </p>
               </article>
             </div>
+            <p
+              className="reveal"
+              style={{
+                marginTop: "clamp(28px,4vw,44px)",
+                fontSize: ".92rem",
+                color: "var(--ink-3)",
+                display: "flex",
+                gap: "10px",
+                alignItems: "flex-start",
+                maxWidth: "660px",
+              }}
+            >
+              <MapPin
+                width={17}
+                height={17}
+                strokeWidth={1.7}
+                style={{
+                  color: "var(--sage-deep)",
+                  flex: "0 0 17px",
+                  marginTop: "4px",
+                }}
+              />
+              Sessions are held live online, or in person by arrangement. For
+              privacy, the exact location is shared only once your booking is
+              confirmed.
+            </p>
           </div>
         </section>
 
@@ -378,13 +407,19 @@ export default function Home() {
               <span className="serif-italic">restore your body&apos;s balance.</span>
             </h2>
             <p className="lead reveal d2" style={{ marginTop: "1.4rem" }}>
-              Biomagnetic Pair Therapy uses magnets to help your body heal. It
-              works by finding areas where your energy is out of balance. We use{" "}
-              <b>Applied Kinesiology</b>, a gentle form of muscle testing, to
-              receive information from your body&apos;s higher self and the
-              quantum field. Then, we place magnets on those spots to bring your
-              natural field back into harmony. This also helps to balance your
-              body&apos;s pH levels, which is important for good health.
+              Biomagnetic Pair Therapy is a gentle, non-invasive therapy that
+              uses static magnets placed on specific areas of the body to help
+              your body heal. This therapy is based on the idea that our health
+              issues are linked to pH imbalances — too much acidity or
+              alkalinity — in your organs and tissues.
+            </p>
+            <p className="reveal">
+              A session involves a body scan to find imbalances using{" "}
+              <b>Applied Kinesiology</b> (a gentle form of muscle testing) to
+              receive information from your higher self. A balanced pH makes it
+              harder for pathogens like bacteria, viruses, and fungi to thrive,
+              and helps create an environment where your natural healing can
+              take place.
             </p>
             <p className="reveal">
               Beyond the physical, this gentle therapy can also help release
@@ -465,7 +500,7 @@ export default function Home() {
               Ready When You Are
             </p>
             <h2 className="reveal d1">
-              Let&apos;s hear what your soul is trying to say.
+              Let&apos;s attune to what your higher self is communicating.
             </h2>
             <p
               className="lead reveal d2"

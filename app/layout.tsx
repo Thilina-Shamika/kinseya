@@ -18,9 +18,9 @@ const mulish = Mulish({
 });
 
 export const metadata: Metadata = {
-  title: "Kinsey Lawrence — Soul Insight & Energetic Clarity",
+  title: "Kinsey Lawrence — Coherence Reflection & Energetic Clarity",
   description:
-    "Intuitive guidance with Kinsey Lawrence — a translator between your soul and your conscious mind. Soul insight & energetic clarity sessions.",
+    "Intuitive guidance with Kinsey Lawrence — a translator between your higher self and your conscious mind. Coherence reflection & energetic clarity sessions.",
 };
 
 export const viewport: Viewport = {

@@ -414,6 +414,9 @@ body.hero-dark:not(.menu-open) .nav:not(.scrolled) .nav-toggle span::after{ back
 .footer-bottom .socials a{ width:38px; height:38px; border-radius:50%; border:1px solid rgba(251,248,241,.18); display:grid; place-items:center; }
 .footer-bottom .socials a:hover{ border-color:var(--paper); }
 .footer-bottom .socials svg{ width:17px; height:17px; }
+.footer-legal{ padding-block:6px 34px; }
+.footer-legal p{ margin:0; max-width:1000px; font-size:.72rem; line-height:1.65; font-style:italic; color:rgba(251,248,241,.38); }
+.footer-legal b{ font-weight:600; font-style:normal; color:rgba(251,248,241,.52); }
 
 /* =========================================================
    reveal animations

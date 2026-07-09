@@ -37,7 +37,7 @@ export default function Nav({
     <>
       <header className={`nav${scrolled ? " scrolled" : ""}`}>
         <Link href="/" className="nav-logo">
-          Kinsey Lawrence<small>Soul Insight</small>
+          Kinsey Lawrence<small>Higher Self Resonance</small>
         </Link>
         <nav>
           <ul className="nav-links">
@@ -92,7 +92,7 @@ export default function Nav({
           </li>
         </ul>
         <div className="mm-foot">
-          Soul insight &amp; energetic clarity, in the present moment.
+          Coherence reflection &amp; energetic clarity, in the present moment.
         </div>
       </div>
     </>

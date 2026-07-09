@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { CalendarHeart, Clock, Mail } from "lucide-react";
+import { CalendarHeart, Clock, Mail, MapPin } from "lucide-react";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Reveals from "@/components/Reveals";
@@ -10,7 +10,7 @@ import { CALENDLY_URL, CONTACT_EMAIL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Contact — Kinsey Lawrence",
   description:
-    "Reach out to Kinsey Lawrence to begin a soul insight & energetic clarity session, or book directly online.",
+    "Reach out to Kinsey Lawrence to begin a coherence reflection & energetic clarity session, or book directly online.",
 };
 
 export default function ContactPage() {
@@ -68,6 +68,18 @@ export default function ContactPage() {
                   <span>{CONTACT_EMAIL}</span>
                 </div>
               </a>
+              <div className="contact-method">
+                <span className="ic">
+                  <MapPin strokeWidth={1.6} />
+                </span>
+                <div>
+                  <b>In person or online</b>
+                  <span>
+                    In-person sessions are available by arrangement. For privacy,
+                    the location is shared only once your booking is confirmed.
+                  </span>
+                </div>
+              </div>
               <div className="contact-method">
                 <span className="ic">
                   <Clock strokeWidth={1.6} />

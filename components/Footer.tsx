@@ -11,8 +11,8 @@ export default function Footer() {
           <div className="footer-brand">
             <div className="logo">Kinsey Lawrence</div>
             <p>
-              Intuitive guidance — a translator between your soul and your
-              conscious mind. Clarity, in the present moment.
+              Intuitive guidance — a translator between your higher self and
+              your conscious mind. Clarity, in the present moment.
             </p>
           </div>
           <div className="footer-col">
@@ -71,6 +71,16 @@ export default function Footer() {
               <Mail strokeWidth={1.6} />
             </a>
           </div>
+        </div>
+        <div className="footer-legal">
+          <p>
+            <b>Legal Disclaimer (Canadian Law Compliant):</b> The insights and
+            guidance offered through Higher Self Resonance and Biomagnetic Pair
+            Therapy are intended for personal reflection and energetic support.
+            They are not a substitute for professional medical, psychological, or
+            legal advice. Under Canadian law, all sessions are considered for
+            entertainment purposes only.
+          </p>
         </div>
       </div>
     </footer>
