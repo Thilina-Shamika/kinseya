@@ -17,7 +17,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Reveals from "@/components/Reveals";
 import Testimonials from "@/components/Testimonials";
-import { CALENDLY_URL } from "@/lib/site";
+import { BOOKING, BOOKING_URL } from "@/lib/site";
 
 export default function Home() {
   return (
@@ -48,7 +48,7 @@ export default function Home() {
               </p>
               <div className="hero-actions">
                 <a
-                  href={CALENDLY_URL}
+                  href={BOOKING_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-light"
@@ -315,7 +315,7 @@ export default function Home() {
                 <h2 className="reveal d1">Simple offerings, deeply held.</h2>
               </div>
               <a
-                href={CALENDLY_URL}
+                href={BOOKING_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="link-arrow reveal d2"
@@ -338,6 +338,16 @@ export default function Home() {
                 <p className="price" style={{ marginTop: "auto" }}>
                   $165 <small>per session</small>
                 </p>
+                <a
+                  href={BOOKING.hour1}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link-arrow"
+                  style={{ marginTop: "18px" }}
+                >
+                  Book this session
+                  <ArrowRight strokeWidth={1.8} />
+                </a>
               </article>
               <article className="offer feature reveal d1">
                 <span className="tier">
@@ -352,6 +362,16 @@ export default function Home() {
                 <p className="price" style={{ marginTop: "auto" }}>
                   $210 <small>per session</small>
                 </p>
+                <a
+                  href={BOOKING.hour15}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link-arrow"
+                  style={{ marginTop: "18px", color: "var(--sage-tint)" }}
+                >
+                  Book this session
+                  <ArrowRight strokeWidth={1.8} />
+                </a>
               </article>
               <article className="offer reveal d2">
                 <span className="tier">
@@ -366,6 +386,16 @@ export default function Home() {
                 <p className="price" style={{ marginTop: "auto" }}>
                   $260 <small>per session</small>
                 </p>
+                <a
+                  href={BOOKING.hour2}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link-arrow"
+                  style={{ marginTop: "18px" }}
+                >
+                  Book this session
+                  <ArrowRight strokeWidth={1.8} />
+                </a>
               </article>
             </div>
             <p
@@ -467,7 +497,7 @@ export default function Home() {
               1.5 hours · $225 per session
             </p>
             <a
-              href={CALENDLY_URL}
+              href={BOOKING.biomagnetic}
               target="_blank"
               rel="noopener noreferrer"
               className="btn reveal d2"
@@ -518,7 +548,7 @@ export default function Home() {
               }}
             >
               <a
-                href={CALENDLY_URL}
+                href={BOOKING_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-light"

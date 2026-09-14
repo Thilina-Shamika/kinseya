@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { CALENDLY_URL, NAV_LINKS } from "@/lib/site";
+import { BOOKING_URL, NAV_LINKS } from "@/lib/site";
 
 export default function Nav({
   heroDark = false,
@@ -54,7 +54,7 @@ export default function Nav({
           </ul>
         </nav>
         <a
-          href={CALENDLY_URL}
+          href={BOOKING_URL}
           target="_blank"
           rel="noopener noreferrer"
           className="btn nav-cta"
@@ -82,7 +82,7 @@ export default function Nav({
           ))}
           <li>
             <a
-              href={CALENDLY_URL}
+              href={BOOKING_URL}
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setMenuOpen(false)}

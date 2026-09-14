@@ -1,6 +1,19 @@
 // Central site configuration. Update these in one place.
 
-export const CALENDLY_URL = "https://calendly.com/kinseyalawrence";
+export const BOOKING_URL = "https://calendyo.com/shops/kinsey-lawrence";
+
+// Direct booking links for each specific service.
+export const BOOKING = {
+  base: BOOKING_URL,
+  hour1:
+    "https://calendyo.com/shops/kinsey-lawrence/book?service=cmu14g5p90003elkzh5atzvyi",
+  hour15:
+    "https://calendyo.com/shops/kinsey-lawrence/book?service=cmu14j0ef0004elkzo01renfq",
+  hour2:
+    "https://calendyo.com/shops/kinsey-lawrence/book?service=cmu14kdek0005elkznsc6ovsj",
+  biomagnetic:
+    "https://calendyo.com/shops/kinsey-lawrence/book?service=cmu14lz5f0006elkzyfgqvwef",
+} as const;
 
 /**
  * Absolute base URL of the deployed site, used for metadata, sitemap, and

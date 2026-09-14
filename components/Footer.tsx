@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Instagram, Mail } from "lucide-react";
-import { CALENDLY_URL, CONTACT_EMAIL, SOCIALS } from "@/lib/site";
+import { BOOKING, BOOKING_URL, CONTACT_EMAIL, SOCIALS } from "@/lib/site";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -36,23 +36,31 @@ export default function Footer() {
             <h4>Sessions</h4>
             <ul>
               <li>
-                <Link href="/#offerings">1-Hour Session</Link>
+                <a href={BOOKING.hour1} target="_blank" rel="noopener noreferrer">
+                  1-Hour Session
+                </a>
               </li>
               <li>
-                <Link href="/#offerings">1.5-Hour Session</Link>
+                <a href={BOOKING.hour15} target="_blank" rel="noopener noreferrer">
+                  1.5-Hour Session
+                </a>
               </li>
               <li>
-                <Link href="/#offerings">2-Hour Session</Link>
-              </li>
-              <li>
-                <Link href="/#biomagnetic">Biomagnetic Pair Therapy</Link>
+                <a href={BOOKING.hour2} target="_blank" rel="noopener noreferrer">
+                  2-Hour Session
+                </a>
               </li>
               <li>
                 <a
-                  href={CALENDLY_URL}
+                  href={BOOKING.biomagnetic}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
+                  Biomagnetic Pair Therapy
+                </a>
+              </li>
+              <li>
+                <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
                   Book Now
                 </a>
               </li>

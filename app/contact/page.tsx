@@ -5,7 +5,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Reveals from "@/components/Reveals";
 import ContactForm from "@/components/ContactForm";
-import { CALENDLY_URL, CONTACT_EMAIL } from "@/lib/site";
+import { BOOKING_URL, CONTACT_EMAIL } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Contact — Kinsey Lawrence",
@@ -49,7 +49,7 @@ export default function ContactPage() {
             <div className="contact-aside reveal d1">
               <h3 style={{ marginBottom: ".4rem" }}>Other ways to reach me</h3>
               <a
-                href={CALENDLY_URL}
+                href={BOOKING_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="contact-method"
@@ -95,7 +95,7 @@ export default function ContactPage() {
               </div>
 
               <a
-                href={CALENDLY_URL}
+                href={BOOKING_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn"

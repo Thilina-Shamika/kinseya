@@ -3,7 +3,7 @@
 A front-end marketing site for Kinsey Lawrence, built from the Claude Design
 `index.html`. Next.js (App Router) + TypeScript + Tailwind + lucide-react.
 The contact form sends email via [Resend](https://resend.com). All booking
-buttons link to Calendly.
+buttons link to the external booking page.
 
 ## Stack
 
@@ -82,10 +82,10 @@ Notes:
 
 ## Configuration
 
-Edit `lib/site.ts` to change the Calendly URL, the public contact email, social
+Edit `lib/site.ts` to change the booking URL, the public contact email, social
 links, and nav items.
 
-- Calendly: `CALENDLY_URL` (currently `https://calendly.com/kinseyalawrence`)
+- Booking: `BOOKING_URL` (currently `https://calendyo.com/shops/kinsey-lawrence`)
 - Public email shown on the contact page: `CONTACT_EMAIL`
 
 ## Notes
