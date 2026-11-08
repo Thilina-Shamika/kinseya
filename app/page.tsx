@@ -85,7 +85,7 @@ export default function Home() {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="/images/portrait.jpg"
-                  alt="Kinsey Lawrence, smiling portrait"
+                  alt="Kinsey Lawrence"
                 />
               </div>
               <div
@@ -110,13 +110,12 @@ export default function Home() {
               </h2>
               <p className="lead" style={{ marginTop: "1.3rem" }}>
                 Whether you&apos;re facing a life decision, emotional confusion,
-                or simply feel &quot;stuck,&quot; I help you access the messages
-                your higher self is trying to communicate.
+                or simply feel &quot;stuck,&quot; I help to access the information
+                your higher self is communicating.
               </p>
               <p>
-                I offer clarity and guidance based on what your higher self is
-                communicating — meant to mirror your inner wisdom and empower you
-                to make aligned choices.
+                I offer clarity and guidance — meant to mirror your inner wisdom
+                and empower you to make aligned choices.
               </p>
               <Link href="/#what" className="link-arrow">
                 More about my work
@@ -236,8 +235,8 @@ export default function Home() {
               &quot;I attune to your field —{" "}
               <span className="accent">
                 a connection independent of personal history
-              </span>{" "}
-              — and receive messages from your higher self.&quot;
+              </span>
+              .&quot;
             </p>
           </div>
         </section>
@@ -459,6 +458,19 @@ export default function Home() {
               This therapy can help with many issues, like pain, tiredness, and
               feeling unwell. It supports your body&apos;s own healing power,
               helping you feel more balanced and vibrant.
+            </p>
+            <p
+              className="reveal"
+              style={{
+                marginTop: "4px",
+                fontSize: ".82rem",
+                fontStyle: "italic",
+                color: "var(--ink-3)",
+              }}
+            >
+              Please note: this therapy is not appropriate for those undergoing
+              radiation therapy, those with a pacemaker, or women who are
+              pregnant.
             </p>
             <div className="bm-note reveal d1">
               <p>
