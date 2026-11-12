@@ -27,9 +27,8 @@ export function getSiteUrl(): string {
   return raw.replace(/\/+$/, "");
 }
 
-// Public-facing email shown on the contact page (display only).
-// Swap to the real address once the domain is set up.
-export const CONTACT_EMAIL = "hello@kinseyalawrence.com";
+// Public-facing email shown on the contact page and footer.
+export const CONTACT_EMAIL = "kinseyalawrence@gmail.com";
 
 export const SOCIALS = {
   instagram: "https://instagram.com/",
